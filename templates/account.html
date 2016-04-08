@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+{% block title %}Account{% endblock %}
+{% block body %}
+<body class="teal lighten-2 container">
+    <h1 class="center-align">
+      ONE TIME PASSWORD
+    </h1>
+    <div class="row">
+      <div class="col s12 m4 l3 card-panel grey hoverable">
+              <button>Get my HOTP/TOTP</button>
+      </div>
+
+      <div class="col s12 m8 l9 card-panel teal lighten-2">
+        <table class="responsive-table centered">
+            <thead>
+              <tr>
+                <th>Account</th>
+                <th>HOTP</th>
+                <th>TOTP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>toto@gmail.com</td>
+                <td>894655</td>
+                <td>785521</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  {% endblock %}
